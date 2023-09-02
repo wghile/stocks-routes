@@ -1,0 +1,20 @@
+.Nav{
+    height: 50px;
+    background-color: blueviolet;
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.Nav > a{
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+    font-size: 18px;
+    margin-top: 5px;
+}
+.Nav > a:first-child{
+    font-size: 25px;
+    font-weight: bold;
+    margin-top: auto;
+}
