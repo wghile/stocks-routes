@@ -1,8 +1,21 @@
-# React + Vite
+## About
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Replicated this stock display application: https://vhixt.csb.app/. Used React + Vite and React-Router library to simulate a multipage application.
 
-Currently, two official plugins are available:
+## Work in Progress
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features I'd like to add:
+
+1. Pull data from an API instead of using hard-coded stocks data
+2. Design
+
+## Installation Instructions
+
+1. clone repository
+2. Navigate to folder and open on local machine
+   - cd into folder
+3. Create new React project: `npm create vite@latest .`
+   - Select framework: React
+   - Select output: JavaScript
+4. Install: `npm install`
+5. Start server: `npm run dev`
